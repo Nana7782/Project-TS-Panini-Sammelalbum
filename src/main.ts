@@ -76,8 +76,9 @@ function addCarToArray(newCar: Cars) {
 function showCars(car: Cars) {
   const cardElement = document.createElement("div") as HTMLDivElement;
   carListOutput?.appendChild(cardElement);
-  cardElement.setAttribute("id", "myCard");
-  cardElement.style.background = `url(${imageElement.value})`;
+  cardElement.setAttribute("class", "myCard");
+  cardElement.style.background = `url(${imageElement.value}) no-repeat center center / cover`;
+  //   cardElement.classList.add("myCard");
 
   let manufacturerOutput = document.createElement("h2") as HTMLHeadElement;
   manufacturerOutput.innerText = car.manufacturer;
