@@ -8,20 +8,20 @@
   </head>
   <body>
     <h1>Add a card</h1>
-    <form id ="carForm">
-      <input type="text" id="manufacturer">
-      <input type="text" id="fabricate">
-      <input type="number" id="year">
-      <input type="number" id="ps">
-      <input type="text" id="model">
-      <input type="text" id="drive">
-      <input type="text" id="country">
-      <input type="text" name="" id="image">
+    <form id="carForm">
+      <input type="text" id="manufacturer" placeholder="Mnufacturer" />
+      <input type="text" id="fabricate" placeholder="Fabricate" />
+      <input type="number" id="year" placeholder="Year" />
+      <input type="number" id="ps" placeholder="PS" />
+      <input type="text" id="model" placeholder="Model" />
+      <input type="text" id="drive" placeholder="Drive" />
+      <input type="text" id="country" placeholder="Country" />
+      <input type="text" name="" id="image" placeholder="Add image url" />
+      <div id="error-text" class="error-message"></div>
       <button type="submit">Add</button>
     </form>
 
     <div id="cardContainer"></div>
-
 
     <script type="module" src="/src/main.ts"></script>
   </body>
