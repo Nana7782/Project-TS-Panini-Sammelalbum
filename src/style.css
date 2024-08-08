@@ -1,0 +1,10 @@
+#myCard {
+  width: 500px;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
