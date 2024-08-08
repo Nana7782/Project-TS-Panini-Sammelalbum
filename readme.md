@@ -1,6 +1,6 @@
 # Project Panini Sammelkarten
 
-![Project Screenshot](./project-panini/assets/img/screenshot_project_cars.png)
+![Project Screenshot](./assets/img/screenshot_project_cars.png)
 
 Dieses Projekt dient dazu, unsere voranschreitenden Typescript Kenntnisse anzuwenden und zu vertiefen.
 
