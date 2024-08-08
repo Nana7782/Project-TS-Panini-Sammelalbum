@@ -42,7 +42,19 @@ carForm?.addEventListener ("submit", (event:Event) => {
     event.preventDefault();
 
     const newCarVariable = createCar ();
+    // const errorMessage = validateCar(newCarVariable);
+    // if (errorMessage === "") {
+    //     addCarToArray (newCarVariable);
+    //     showCars(newCarVariable);
+    //     carForm.reset()
+    // } else {
+    //     carErrorOutput.innerText = errorMessage
+    // }
 });
+
+function addCarToArray(newCar: Cars) {
+    
+}
 
 
 
