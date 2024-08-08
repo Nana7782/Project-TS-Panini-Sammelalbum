@@ -25,6 +25,20 @@ h1 {
   height: 250px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin: 10px;
   padding: 10px;
+}
+
+.delete {
+  width: 30%;
+  position: relative;
+  left: 35%;
+}
+
+h2,
+h3,
+p {
+  background-color: rgba(255, 255, 255, 0.483);
+  width: 30%;
 }

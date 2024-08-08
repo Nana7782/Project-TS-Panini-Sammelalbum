@@ -107,4 +107,13 @@ function showCars(car: Cars) {
   let countryOutput = document.createElement("p") as HTMLParagraphElement;
   countryOutput.innerText = car.country;
   cardElement.appendChild(countryOutput);
+
+  const deleteBtn = document.createElement("button") as HTMLButtonElement;
+  deleteBtn.setAttribute("class", "delete");
+  deleteBtn.textContent = "Delete Car";
+  deleteBtn.addEventListener("click", () => {
+    carList = carList.filter((carEl: Cars) => carEl.id !== car.id);
+    cardElement.remove();
+  });
+  cardElement.appendChild(deleteBtn);
 }
